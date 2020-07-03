@@ -1,0 +1,65 @@
+html,body{
+	margin: 10px;
+}
+
+p{
+	font-size: 30px;
+}
+
+label{
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.first{
+	display: flex;
+	flex-direction: column;
+}
+#form{
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+div{
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input,textarea, select{
+	font-size: 20px;
+}
+
+textarea{
+	width: 300px;
+	height: 75px;
+}
+
+select{
+	width: 200px;
+}
+
+#buttons{
+	display: flex;
+	justify-content: flex-end;
+}
+
+button{
+	margin: 10px;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+#b1{
+	background-color: blue;
+	color: white;
+}
+
+#b2{
+	background-color: white;
+	color: blue;
+}
